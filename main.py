@@ -32,7 +32,7 @@ def is_kaprekar(n):
     
     return False
 
-# Encontrar todos os números de Kaprekar abaixo de 1.000.000
+# Encontrar todos os números de Kaprekar abaixo de 10.000.000
 kaprekar_numbers = []
 for num in range(1, 10000000):
     if is_kaprekar(num):
